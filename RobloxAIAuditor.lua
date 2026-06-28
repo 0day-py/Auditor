@@ -22,9 +22,9 @@ local Camera = workspace.CurrentCamera
 
 local CONFIG = {
     GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions",
-    GROQ_MODEL = "llama3-70b-8192",
-    MAX_TOKENS = 2048,
-    SCAN_TIMEOUT = 30,
+    GROQ_MODEL = "llama-3.3-70b-instruct",
+    MAX_TOKENS = 5000,
+    SCAN_TIMEOUT = 70,
     API_TIMEOUT = 45,
     TOAST_DURATION = 3.5,
     TWEEN_SPEED = 0.22,
